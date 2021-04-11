@@ -9,3 +9,7 @@ The goal of this repo?
 
 - See how syntax varies between programming languages, and see which is the most readable.
 - Race the languages and see which is the fastest at carrying out a single task.
+
+To run the code you will need to install NodeJS, Python, compilers for C#, C++ & your own Java VM. -> I used GPP, JavaC & Mono-Complete
+
+Enjoy!

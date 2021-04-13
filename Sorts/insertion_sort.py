@@ -17,10 +17,7 @@ def insertion_sort(array):
 
     return array
 
-array = [10,12,4,5,2,1,199,21,32,1,90,18]
+def start_insertion_sort(array):
+    insertion_sort(array)
+    return array
 
-
-insertion_sort(array)
-
-for item in array:
-    print(item)

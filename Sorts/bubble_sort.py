@@ -24,9 +24,7 @@ def bubble_sort(array):
     else:
         bubble_sort(array)
 
-array = [10,12,4,5,2,1,199,21,32,1,90,18]
 
-bubble_sort(array)
-
-for item in array:
-    print(item)
+def start_bubbble_sort(array):
+    bubble_sort(array)
+    return array

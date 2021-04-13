@@ -25,15 +25,13 @@ def partition(array, low, high):
 
 
 
-array = [10,12,4,5,2,1,199,21,32,1,90,18]
+def start_quick_sort(array):
 
-length = len(array) - 1
-quick_sort(array, 0, length)
+    length = len(array) - 1
+    quick_sort(array, 0, length)
+    return array
 
-print("The Sorted Array is:")
 
-for item in array:
-	print(item)
 
 
 

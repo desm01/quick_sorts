@@ -37,8 +37,7 @@ def merge_sort(array):
             j = j + 1
             k = k + 1
 
-array = [10,12,4,5,2,1,199,21,32,1,90,18]
-merge_sort(array)
 
-for item in array:
-    print(item)
+def start_merge_sort(array):
+    merge_sort(array)
+    return array
